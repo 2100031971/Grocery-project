@@ -1,0 +1,90 @@
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    gap: 0.4rem; /* Reduced gap between items */
+    margin: 0;
+    padding-top: 20px; /* Adjusted top padding */
+}
+
+.list li {
+    width: 14rem; /* Slightly reduced card width */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.list li a {
+    height: 24rem; /* Reduced card height */
+    width: 14rem;
+    border: 1px solid #f0f0f0;
+    border-radius: 0.8rem;
+    margin: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929;
+    padding: 0.6rem; /* Added slight padding */
+}
+
+.image {
+    object-fit: contain;
+    height: 9rem; /* Further reduced image size */
+    margin-bottom: 0.4rem; /* Reduced spacing */
+}
+
+.content {
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    min-height: 6rem; /* Further reduced height */
+}
+
+.price {
+    font-size: 0.9rem; /* Adjusted font size */
+    color: #414141;
+    background-color: white;
+    padding: 0.2rem 0;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.product_name {
+    min-height: 1.2rem; /* Reduced height */
+    text-align: center;
+    font-size: 1rem; /* Adjusted font size */
+}
+
+.stars {
+    margin-bottom: 0.1rem; /* Reduce space below stars */
+    font-size: 0.9rem;
+}
+
+.product_item_footer {
+    margin-top: 0.1rem; /* Reduce space above price */
+    padding-bottom: 0.3rem; /* Slight padding adjustment */
+}
+
+.origins {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.2rem;
+    min-height: 1rem;
+}
+
+.origins span {
+    border-radius: 1rem;
+    background-color: #f9f9f9;
+    display: inline-block;
+    font-size: 0.65rem;
+    color: grey;
+    padding: 0 0.3rem;
+    margin-top: 0.1rem;
+}

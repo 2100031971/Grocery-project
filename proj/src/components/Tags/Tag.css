@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;  /* Adds spacing between tags */
+    justify-content: center; /* Ensures tags are centered */
+    padding: 0.5rem;
+}
+
+.container a {
+    background-color: #f0f0f0;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #007bff; /* More vibrant blue */
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.container a:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+}
+
+.container a:active {
+    transform: scale(0.95);
+}

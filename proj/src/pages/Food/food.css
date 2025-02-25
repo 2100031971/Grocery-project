@@ -1,0 +1,104 @@
+.food-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Space between image and text */
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.food-image {
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.food-details {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.food-details h2 {
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.rating-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.heart {
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+}
+
+.food-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.food-tag {
+    background: gray;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+/* Price & Cart Button Row */
+.price-cart {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.price-value {
+    color: green;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cart-button {
+    color: white;
+    background-color: #e72929;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.cart-button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.back-button {
+    margin-top: 15px;
+    padding: 8px 20px;
+    background: orangered;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background: #e04d2a;
+}

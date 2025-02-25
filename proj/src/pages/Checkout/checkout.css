@@ -1,0 +1,38 @@
+.checkout-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .checkout-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .checkout-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .checkout-container li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .checkout-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .checkout-container button:disabled {
+    background: #ccc;
+  }
+  
